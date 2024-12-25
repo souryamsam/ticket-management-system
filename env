@@ -1,0 +1,46 @@
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+
+app.baseURL = 'http://10.100.10.10:8080/ci4-projects/ticket-management-system/'
+# If you have trouble with `.`, you could also use `_`.
+# app_baseURL = 'http://localhost/ci4-projects/ticket-management-system'
+# app.forceGlobalSecureRequests = false
+# app.CSPEnabled = false
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+# Database Configuration for SQL Server
+<# database.default.hostname = 10.100.10.10
+database.default.username = user_tkt
+database.default.password = asd-1234
+database.default.database = TKT_COLLECTION
+database.default.DBDriver = SQLSRV
+database.default.port = 1433 #>
+
+#--------------------------------------------------------------------
+# ENCRYPTION
+#--------------------------------------------------------------------
+
+# encryption.key =  # Uncomment and set your encryption key here if needed
+
+#--------------------------------------------------------------------
+# SESSION
+#--------------------------------------------------------------------
+
+# session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
+# session.savePath = null  # Uncomment and set the session save path if needed
+
+#--------------------------------------------------------------------
+# LOGGER
+#--------------------------------------------------------------------
+
+logger.threshold = 1  # Adjust the logging threshold as per your needs
+
